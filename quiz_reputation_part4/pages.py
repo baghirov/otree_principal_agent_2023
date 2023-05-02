@@ -12,9 +12,7 @@ class WELCOME(Page):
 
 class Introduction1(Page):
     form_model = 'player'
-    form_fields = ['onay_1',
-                    'onay_2',
-                    'onay_3',
+    form_fields = [ 'onay_3',
                     'onay_4']
 
 class Introduction2(Page):
