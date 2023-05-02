@@ -50,7 +50,7 @@ class Player(BasePlayer):
 
     year = models.IntegerField(
         label='BİLGİ ye giriş yılınız',
-        min=2000, max=2020)
+        min=2000, max=2022)
     
     dept = models.StringField(
         label='Bölümünüz')
