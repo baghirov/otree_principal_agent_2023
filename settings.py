@@ -4,10 +4,10 @@ from os import environ
 SESSION_CONFIGS = [
     
     dict(
-        name='quiz_principal_agent_reputation_t4_all_in',
-        display_name="Treatment 4 with quiz, risk,survey and payment info",
+        name='quiz_principal_agent_reputation_t1_all_in',
+        display_name="Treatment 1 with quiz, risk,survey and payment info",
         num_demo_participants=2,
-        app_sequence=['quiz_reputation_part4','part4','risk_part4','survey_reputation','payment_info'],
+        app_sequence=['quiz_reputation_part1','part1','risk_part1','survey_reputation','payment_info'],
     )
     
 
@@ -19,12 +19,12 @@ SESSION_CONFIGS = [
 # e.g. self.session.config['participation_fee']
 
 SESSION_CONFIG_DEFAULTS = dict(
-    real_world_currency_per_point=2/21, participation_fee=60.00, doc=""
+    real_world_currency_per_point=2/3, participation_fee=60.00, doc=""
 )
 OTREE_PRODUCTION = True
 
 # exchange rates for treatments:
-## PART1: 1/3
+## PART1: 1/3 -- 2/3 -- multiplied with 2 in may 2023. original was in december 2020
 ## PART2: 1/7
 ## PART3: 1/13
 ## PART4: 1/21
