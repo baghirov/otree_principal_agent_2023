@@ -26,7 +26,7 @@ SESSION_CONFIGS = [
 # e.g. self.session.config['participation_fee']
 
 SESSION_CONFIG_DEFAULTS = dict(
-    real_world_currency_per_point=2/7, participation_fee=60.00, doc=""
+    real_world_currency_per_point=2/13, participation_fee=60.00, doc=""
 )
 OTREE_PRODUCTION = True
 
